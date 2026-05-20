@@ -1,0 +1,46 @@
+body{
+    background-color: darksalmon;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* container */
+.container{
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+/* menu */
+.menu{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.menu li{
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+}
+.menu li a:hover{
+    background-color: mediumturquoise;
+    width: 100%;
+    padding: 20px;
+}
+/* logo */
+.logo{
+    margin-right: auto;
+   
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 10px;
+}
+/* search */
+.input{
+    padding: 5px;
+    display: flex;
+    border-radius: 5px;
+}
